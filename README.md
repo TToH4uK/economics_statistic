@@ -6,9 +6,9 @@
 
 An interactive visual exploration of global economic history. This project transforms raw GDP and Inflation data into a dynamic dashboard, revealing the patterns of growth, recession, and economic crises across four decades.
 
-![Dashboard Preview](file:///home/ivanximik/.gemini/antigravity/brain/910b1eff-3264-41c7-86e8-65e51bc25a3d/economic_dashboard_1770046392126.png)
+![Dashboard Preview](./assets/economic_dashboard.png)
 
-## 🎯 Project Objective
+## Project Objective
 
 The **Great Economist** project aims to provide a clear, interactive view of how the world's economies have evolved. By combining multiple data sources, it allows users to:
 - **Visualize** global trends through an animated choropleth map.
@@ -16,7 +16,7 @@ The **Great Economist** project aims to provide a clear, interactive view of how
 - **Analyze** country-specific histories with interactive line charts.
 - **Relate** data to historical events (e.g., 2008 Financial Crisis, COVID-19).
 
-## 🛠️ Data Engineering & Manipulations
+## Data Engineering & Manipulations
 
 The project processes large-scale datasets to derive meaningful economic indicators.
 
@@ -39,7 +39,7 @@ The [data_processor.py](file:///mnt/disk_d/projects/great_economist_project/data
         - 🟤 **Recession**: Real Growth ≤ 0%
         - 🔵 **Deflation**: Inflation < 0%
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -52,7 +52,7 @@ pip install pandas plotly pycountry kagglehub
 3. **Generate Map**: Run `python map_generator.py` to create the interactive dashboard.
 4. **View**: Open `interactive_economic_map.html` in your browser.
 
-## 📊 Results
+## Results
 
 The output is a robust **Interactive Economic Dashboard** featuring:
 - **Switchable Layers**: Toggle between "Real GDP Growth" and "Economic Condition" views.
@@ -60,5 +60,4 @@ The output is a robust **Interactive Economic Dashboard** featuring:
 - **Contextual Markers**: The timeline slider highlights major global events like the **Asian Crisis (1997)** and **Brexit (2016)**.
 - **Deep Dive**: Click on any country to immediately generate a historical comparison chart of its GDP Growth vs. Inflation.
 
----
-*Created with ❤️ for data enthusiasts and economists.*
+
